@@ -1,0 +1,82 @@
+<%- include("../partials/header")%>
+
+    <%- include("../partials/navbar") %>
+
+
+
+        <div class="userProfile-container">
+
+            <h3>USER PROFILE</h3>
+            <br>
+
+
+            <div class="userProfileInner-container">
+                <!-- <label for="">Username</label> -->
+                <input type="text" value=<%=currentUser.username %>>
+
+
+                <!-- <label for="">EMAIL</label> -->
+                <input type="text" value=<%=currentUser.email %>>
+
+                <br>
+
+                <button><a href="/logout">logout</a></button>
+            </div>
+
+        </div>
+
+        <style>
+            .userProfile-container {
+                width: 600px;
+                height: 600px;
+                background-color: rgb(232, 142, 77);
+                margin: 145px auto;
+                box-shadow: 8px 8px 5px rgb(163, 102, 57);
+            }
+
+            .userProfile-container h3 {
+                text-decoration: underline;
+                font-size: 40px;
+                display: inline-block;
+                margin: 50px 206px;
+                color: rgb(77, 77, 77);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .userProfile-container input {
+                width: 340px;
+                height: 35px;
+                display: inline-block;
+                margin: 15px 130px;
+                text-align: center;
+                border-radius: 16px;
+                font-size: 22px;
+            }
+
+
+            .userProfileInner-container button {
+                width: 340px;
+                font-size: 28px;
+                margin: 32px 135px;
+                background-color: black;
+                border-radius: 5px;
+                color: white;
+            }
+
+            .userProfileInner-container button a {
+                color: white;
+                text-decoration: none;
+                font-size: 28px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
+
+
+
+
+
+
+
+
+
+        <%- include("../partials/footer") %>

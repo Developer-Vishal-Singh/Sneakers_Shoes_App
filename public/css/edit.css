@@ -1,0 +1,55 @@
+.edit-container {
+    width: 620px;
+    height: 1100px;
+    background-color: rgb(232, 142, 77);
+    margin: 145px auto;
+    box-shadow: 8px 8px 5px rgb(163, 102, 57);
+}
+
+.editForm-container h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    display: inline-block;
+    margin: 50px 116px;
+    color: rgb(77, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.editForm-container input,
+textarea {
+    width: 340px;
+    height: 80px;
+    display: inline-block;
+    margin: 7px 130px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 22px;
+}
+
+.editForm-container label {
+    width: 340px;
+    height: 35px;
+    display: inline-block;
+    margin: 1px 130px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 30px;
+    color: white;
+}
+
+.editForm-container {
+    align-items: center;
+}
+
+.editValue-container {
+    align-items: center;
+}
+
+.editForm-container button {
+    width: 340px;
+    font-size: 28px;
+    margin: 32px 135px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
